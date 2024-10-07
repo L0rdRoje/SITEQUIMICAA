@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Os Botões de Napoleão - Resumo Capítulo 1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        /* Custom CSS */
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    
+        .navbar {
+            background-color: #1f2a44;
+        }
+    
+        .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #ffffff !important;
+            font-size: 1.5rem;
+        }
+    
+        .navbar-nav .nav-link {
+            color: #ffffff !important;
+            font-weight: 600;
+        }
+    
+        .nav-link:hover {
+            color: #ffb84d !important;
+        }
+    
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(31, 42, 68, 0.85), rgba(31, 42, 68, 0.85)), url('https://via.placeholder.com/1920x800') center center no-repeat;
+            background-size: cover;
+            color: #ffffff;
+            text-align: center;
+            padding: 150px 0;
+        }
+    
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+    
+        .hero p {
+            font-size: 1.2rem;
+        }
+    
+        /* Section Styling */
+        .section {
+            padding: 80px 0;
+        }
+    
+        .section h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 2.5rem;
+            margin-bottom: 40px;
+            text-align: center;
+            color: #1f2a44;
+        }
+    
+        .section p {
+            font-size: 1.1rem;
+            color: #5f6368;
+        }
+    
+        .bg-light {
+            background-color: #f4f4f9;
+        }
+    
+        .bg-dark-section {
+            background-color: #1f2a44;
+            color: #ffffff;
+        }
+    
+        .bg-dark-section p {
+            color: #cfd2dc;
+        }
+    
+        /* Especificamente para o título da seção de conclusão */
+        #conclusao h2 {
+            color: #ffffff; /* Altera a cor do título para branco */
+        }
+    
+        /* Card Styles for Molecules */
+        .molecule-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    
+        .molecule-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+    
+        .molecule-card img {
+            border-bottom: 3px solid #ffb84d;
+        }
+    
+        .molecule-card h4 {
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin-top: 15px;
+            color: #ffb84d;
+        }
+    
+        .footer {
+            background-color: #1f2a44;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    
+        .footer p {
+            margin-bottom: 0;
+            color: #cfd2dc;
+        }
+    
+        /* Responsiveness */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+    
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#inicio">Os Botões de Napoleão</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#moleculas">Moléculas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#historico">História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conclusao">Conclusão</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1>Os Botões de Napoleão</h1>
+            <p>As moléculas que mudaram o rumo da história, uma especiaria de cada vez.</p>
+        </div>
+    </section>
+
+    <!-- Moléculas Section -->
+    <section id="moleculas" class="section bg-light">
+        <div class="container">
+            <h2>As Moléculas das Especiarias</h2>
+            <div class="row text-center">
+                <!-- Noz-moscada -->
+                <div class="col-md-4">
+                    <div class="molecule-card">
+                        <img src="/miscerina.png" alt="Miristicina" class="img-fluid">
+                        <div class="p-4">
+                            <h4>Noz-moscada</h4>
+                            <p>Molécula: <strong>Miristicina</strong></p>
+                            <p>A miristicina, principal molécula presente na noz-moscada, foi disputada por diversas nações europeias durante os séculos XVII e XVIII. Valorizada não só por seu sabor, mas também por suas propriedades psicoativas, a noz-moscada se tornou essencial nas rotas comerciais. Os europeus travaram batalhas ferozes por seu controle nas Ilhas Molucas, na Indonésia.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pimenta-do-reino -->
+                <div class="col-md-4">
+                    <div class="molecule-card">
+                        <img src="/Piperine1.png" alt="Piperina" class="img-fluid">
+                        <div class="p-4">
+                            <h4>Pimenta-do-reino</h4>
+                            <p>Molécula: <strong>Piperina</strong></p>
+                            <p>A piperina, responsável pela picância da pimenta-do-reino, foi uma das principais molas propulsoras do comércio oriental. No auge da Idade Média, a pimenta valia seu peso em ouro. Seu uso na conservação de alimentos e sua versatilidade como tempero faziam dela uma mercadoria essencial. A busca por pimenta levou os europeus a explorarem novos territórios e expandirem rotas marítimas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cravo-da-índia -->
+                <div class="col-md-4">
+                    <div class="molecule-card">
+                        <img src="/Eugenol_acsv.svg.png" alt="Eugenol" class="img-fluid">
+                        <div class="p-4">
+                            <h4>Cravo-da-índia</h4>
+                            <p>Molécula: <strong>Eugenol</strong></p>
+                            <p>O eugenol, encontrado no cravo-da-índia, tem propriedades medicinais e foi amplamente usado para fins terapêuticos, além de seu valor culinário. O cravo, como outras especiarias, era monopolizado pelos holandeses durante o período colonial, e o controle sobre sua produção nas Ilhas Molucas garantiu à Companhia Holandesa das Índias Orientais um vasto lucro por séculos.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contexto Histórico Section -->
+    <section id="historico" class="section">
+        <div class="container">
+            <h2>Contexto Histórico</h2>
+            <p>
+                A busca pelas especiarias, incluindo noz-moscada, pimenta-do-reino e cravo-da-índia, foi o ponto de partida para grandes navegações e disputas geopolíticas. Durante o século XVII, a Companhia Holandesa das Índias Orientais controlava o comércio de especiarias no Sudeste Asiático, acumulando poder e riquezas. Os europeus, fascinados pelas especiarias, travaram inúmeras batalhas pela supremacia das rotas comerciais, estabelecendo colônias e fortificações ao longo do caminho.
+            </p>
+            <p>
+                O comércio dessas especiarias não só influenciou a culinária e a medicina, mas também alterou a geopolítica mundial, contribuindo para a ascensão e queda de impérios. Napoleão, ao tentar expandir seu controle territorial, foi influenciado por essa cultura de domínio das rotas comerciais, e sua ambição foi parcialmente frustrada pelo clima extremo, que afetou o desempenho de seus exércitos.
+            </p>
+        </div>
+    </section>
+
+    <!-- Conclusão Section -->
+    <section id="conclusao" class="section bg-dark-section">
+        <div class="container text-center">
+            <h2>Conclusão</h2>
+            <p>
+                As moléculas de especiarias, como miristicina, piperina e eugenol, não só realçaram o sabor de pratos, mas também mudaram o curso da história. A busca incansável por esses ingredientes exóticos levou à exploração, conquista e colonização, moldando o mundo como o conhecemos hoje. Essas pequenas moléculas provaram ter um impacto gigante na humanidade.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 - Resumo "Os Botões de Napoleão" - Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
